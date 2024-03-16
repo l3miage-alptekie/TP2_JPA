@@ -13,7 +13,7 @@ class CommandeEntity {
 
     // relation avec ClientEntity
     @ManyToOne
-    private ClientEntity clientEntity;
+    private ClientEntity client;
 
     // relation avec ProduitEntity
     @OneToMany

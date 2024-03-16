@@ -12,7 +12,7 @@ class ClientEntity{
 
     private String email;
     //relation One to Many avec CommandeEntity
-    @OneToMany(mappedBy = "clientEntity")
+    @OneToMany(mappedBy = "client")
     private Set<CommandeEntity> commandes ;
 
     // relation OneToOne avec AdresseEntity
